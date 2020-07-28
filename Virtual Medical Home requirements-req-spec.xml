@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Virtual Medical Home requirements"  doc_id="vmh"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>All requirements for Virtual Medical Home web application</p>]]></scope>
+			<requirement>
+		<docid><![CDATA[REQ1]]></docid>
+		<title><![CDATA[Access to web application]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>User has access to web application</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ2]]></docid>
+		<title><![CDATA[User registration]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>The user must provide user-name, password, and all other mandatory fields.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ3]]></docid>
+		<title><![CDATA[User is Kiosk manager or Doctor]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>User must be a Kiosk Manager or Doctor</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ4]]></docid>
+		<title><![CDATA[User login]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>User is registered</p>
+
+<p>User must provide existing username and valid password</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ5]]></docid>
+		<title><![CDATA[User invalid login]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>User must provide non existing username or password</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ6]]></docid>
+		<title><![CDATA[Kiosk exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>Kiosk exists in the database</p>
+
+<p>Kiosk manager has rights for kiosk</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ7]]></docid>
+		<title><![CDATA[User is Admin]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>7</node_order>
+		<description><![CDATA[<p>User must have Admin privilleges</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ8]]></docid>
+		<title><![CDATA[Doctor exists in database]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>8</node_order>
+		<description><![CDATA[<p>Doctor must exists in VMH database</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ9]]></docid>
+		<title><![CDATA[Doctor is available]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>9</node_order>
+		<description><![CDATA[<p>Doctor must be available at some date and time</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ10]]></docid>
+		<title><![CDATA[Doctor not exists in database]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>10</node_order>
+		<description><![CDATA[<p>There is not data about desired doctor in database</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ11]]></docid>
+		<title><![CDATA[Doctor is not available]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>11</node_order>
+		<description><![CDATA[<p>Doctor is not available in next period</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ12]]></docid>
+		<title><![CDATA[Web camera is functional]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>12</node_order>
+		<description><![CDATA[<p>Web camera for interaction with doctor is functional</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ13]]></docid>
+		<title><![CDATA[Patient has health record]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>13</node_order>
+		<description><![CDATA[<p>Patient has health records in the database</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ14]]></docid>
+		<title><![CDATA[User is patient]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>14</node_order>
+		<description><![CDATA[<p>User must be a&nbsp;patient</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ15]]></docid>
+		<title><![CDATA[Patient exists in database]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>15</node_order>
+		<description><![CDATA[<p>Patient must have data in the database</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ16]]></docid>
+		<title><![CDATA[Forum has posts]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>16</node_order>
+		<description><![CDATA[<p>Discussion forum must have at least one post</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ17]]></docid>
+		<title><![CDATA[Post reply]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>17</node_order>
+		<description><![CDATA[<p>Post in the discussion form must have reply option enabled</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ18]]></docid>
+		<title><![CDATA[Interface exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>18</node_order>
+		<description><![CDATA[<p>Interface in web application between user and database exists</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ19]]></docid>
+		<title><![CDATA[VMH database exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>19</node_order>
+		<description><![CDATA[<p>Virtual Media Home database exists, and it is ready for reading and writing</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ20]]></docid>
+		<title><![CDATA[VMH Database is corrupted]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>20</node_order>
+		<description><![CDATA[<p>Virtual Media Home database is corrupted and unable for reading and writting data</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ21]]></docid>
+		<title><![CDATA[Patient exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>21</node_order>
+		<description><![CDATA[<p>Patient exists</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ22]]></docid>
+		<title><![CDATA[Doctor exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>22</node_order>
+		<description><![CDATA[<p>Doctor exists</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ23]]></docid>
+		<title><![CDATA[Admin exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>23</node_order>
+		<description><![CDATA[<p>Admin exists</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ24]]></docid>
+		<title><![CDATA[Patient does not exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>24</node_order>
+		<description><![CDATA[<p>Patient does not exists</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ25]]></docid>
+		<title><![CDATA[User exists]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>25</node_order>
+		<description><![CDATA[<p>User exists</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[REQ26]]></docid>
+		<title><![CDATA[Authentication data is invalid]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>26</node_order>
+		<description><![CDATA[<p>Data for authentication for privileged users are invalid</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</requirement-specification>
